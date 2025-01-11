@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f0f0;
+}
+
+.birthday-container {
+    text-align: center;
+    background-image: url('/images/rose-border.png'); /* Use your rose border */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.8); /* Optional background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Left Text */
+.text-left {
+    width: 20%;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Center Image and Text */
+.image-container {
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-family: "Algerian", serif;
+    color: #d12d2d;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+.birthday-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Right Text */
+.text-right {
+    width: 20%;
+    text-align: right;
+    font-size: 16px;
+    color: #333;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full page height */
+    text-align: center;
+    background-color: #ffe6e6; /* Optional: Add a soft background color */
+  }
+  
+  /* Style the love icon */
+  .love-icon {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+  
+  /* Style the text */
+  .image-container p {
+    font-size: 18px;
+    color: #333;
+  }
