@@ -25,9 +25,10 @@ app.get("/birthday",(req,res) =>{
 });
 
 
-app.listen(port, () =>{
-    console.log(`port running on localhost:${port}`);
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Server running on port ${process.env.PORT || 3000}`);
 });
+
 
 // *Vj_$bR7U7?8tiU
 
